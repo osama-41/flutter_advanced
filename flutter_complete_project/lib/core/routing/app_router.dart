@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_complete_project/core/routing/routes.dart';
-import 'package:flutter_complete_project/features/login/ui/widgets/login_screen.dart';
+import 'package:flutter_complete_project/features/login/ui/login_screen.dart';
 import 'package:flutter_complete_project/features/onboarding/onboarding_screen.dart';
 
 class AppRouter {
   Route generatRoute(RouteSettings settings) {
     //this arguments to be passed in any screen like this (arguments as ClassName)
+    // ignore: unused_local_variable
     final arguments = settings.arguments;
 
     switch (settings.name) {
